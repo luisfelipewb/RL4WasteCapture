@@ -1,11 +1,22 @@
 # DRL4FloatingWasteCapture
 
-Advancing ASV Autonomy for Environmental Cleanup: A Deep Reinforcement Learning Framework for Floating Waste Capture
+This repository accompanies the paper titled "Deep Reinforcement Learning for Autonomous Surface Vehicles: Bridging the Gap to Real-World Deployment" (Link to Paper). 
 
 ## Description
 
-We extend an IsaacSim-based RL framework to simulate hydrodynamics and buoyancy to train RL agents to capture floating trash.
+Despite the increasing adoption of Deep Reinforcement Learning (DRL) for Autonomous Surface Vehicles (ASVs), there still remain challenges limiting real-world deployment. In our work, we address these challenges by integrating buoyancy and hydrodynamics models into a modern Reinforcement Learning framework to reduce training time. Additionally, we demonstrate the effectiveness of system identification coupled with domain randomization in improving the RL agent's performance, bridging the gap to real-world applications. Our approach is validated through real-world experiments focused on the task of capturing floating waste. Results indicate a significant improvement, with a 13.1% reduction in energy consumption and a 7.4% decrease in task completion time compared to baseline methods.
 
+| Isaac Sim - Training Environment |
+| :---: |
+| ![Isaac Sim](img/isaac.gif) |
+
+| Testing Environment - Gazebo |
+| :---: |
+| ![Gazebo](img/gazebo.gif) |
+
+| Field Test - Kingfisher |
+| :---: |
+| ![Field Test](img/field.gif) |
 
 ## Installation
 
