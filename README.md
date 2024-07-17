@@ -33,16 +33,17 @@ Follow the instructions provided in the repository to set up the Kingfisher-rela
 For running training and test procedures, please refer to the respective repositories:
 
 - **RL Framework**: Follow the instructions provided in the [RANS-ASV-IROS2024](https://github.com/JunghwanRo/RANS-ASV-IROS2024) repository.
-- **Kingfisher-related Code**: Instructions for running simulations and real-world tests can be found in the [kingfisher_control](https://github.com/luisfelipewb/kingfisher_control/tree/iros2024) repository.
+- **Kingfisher-related Code**: Instructions for running simulations and real-world tests can be found in the [kingfisher_control](https://github.com/luisfelipewb/kingfisher_control/tree/pub/iros2024) repository.
 
 ## Citation 
 If you use our code in your work, we suggest citing the following papers:
 
 ```bibtex
 @article{tbd,
-  title={Advancing ASV Autonomy for Environmental Cleanup: A Deep Reinforcement Learning Framework for Floating Waste Capture},
+  title={A Deep Reinforcement Learning Framework and Methodology for Reducing the Sim-to-Real Gap in ASV Navigation},
+  booktitle={2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
   author={Batista, Luis F. W. and Ro, Junghwan and Richard, Antoine and Schroepfer, Pete and Hutchinson, Seth and Pradalier, Cedric},
-  journal={to be updated},
+  url = {https://hal.science/hal-04643371},
   year={2024}
 }
 
