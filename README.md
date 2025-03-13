@@ -1,7 +1,7 @@
 # DRL4FloatingWasteCapture
 This repository provides an overview and the relevant links for the following articles:
-* [A Deep Reinforcement Learning Framework and Methodology for Reducing the Sim-to-Real Gap in ASV Navigation](https://arxiv.org/abs/2407.08263) - Accepted to IROS 2024
-* [Evaluation of DRL Robustness for Autonomous Surface Vehicle Control](tbd) - Submitted to ICRA 2025
+* [A Deep Reinforcement Learning Framework and Methodology for Reducing the Sim-to-Real Gap in ASV Navigation](https://ieeexplore.ieee.org/abstract/document/10802067) - Accepted to IROS 2024
+* Evaluating Robustness of Deep Reinforcement Learning for Autonomous Surface Vehicle Control in Field Tests - Submitted to Workshop on Field Robotic - ICRA 2025
 
 
 ## Description
@@ -41,14 +41,14 @@ For running training and test procedures, please refer to the respective reposit
 If you use our code in your work, we suggest citing the following papers:
 
 ```bibtex
-@misc{batista2024deepreinforcementlearningframework,
-      title={A Deep Reinforcement Learning Framework and Methodology for Reducing the Sim-to-Real Gap in ASV Navigation}, 
-      author={Luis F W Batista and Junghwan Ro and Antoine Richard and Pete Schroepfer and Seth Hutchinson and Cedric Pradalier},
-      year={2024},
-      eprint={2407.08263},
-      archivePrefix={arXiv},
-      primaryClass={cs.RO},
-      url={https://arxiv.org/abs/2407.08263}, 
+@INPROCEEDINGS{10802067,
+  author={Batista, Luis F. W. and Ro, Junghwan and Richard, Antoine and Schroepfer, Pete and Hutchinson, Seth and Pradalier, Cedric},
+  booktitle={2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)}, 
+  title={A Deep Reinforcement Learning Framework and Methodology for Reducing the Sim-to-Real Gap in ASV Navigation}, 
+  year={2024},
+  pages={1258-1264},
+  keywords={Training;Energy consumption;Limiting;Navigation;Focusing;Buoyancy;Hydrodynamics;Deep reinforcement learning;System identification;Intelligent robots},
+  doi={10.1109/IROS58592.2024.10802067}
 }
 
 @article{el2023rans,
